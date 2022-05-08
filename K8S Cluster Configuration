@@ -16,7 +16,7 @@ Note: Open Required Ports In AWS Security Groups.
 
 # First, login as ‘root’ user because the following set of commands need to be executed with ‘sudo’ permissions.
 
-sudo hostname k8s
+sudo hostnamectl set-hostname master
 sudo su -  OR sudo -i
 
 =# Install Required packages and apt keys.
